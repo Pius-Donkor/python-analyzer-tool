@@ -1,7 +1,10 @@
 [project]
 name = "file-analyzer"
 version = "0.1.0"
-description = "Add your description here"
+description = "A CLI tool to analyze files in a directory"
+authors = [
+    {name = "Pius Donkor"}
+]
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
@@ -12,3 +15,8 @@ dependencies = [
 dev = [
     "ipykernel>=7.2.0",
 ]
+[project.scripts]
+file-analyzer = "file_analyzer.cli:main"
+
+[tool.setuptools]
+packages = ["file_analyzer"]

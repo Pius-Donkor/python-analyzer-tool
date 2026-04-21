@@ -1,0 +1,35 @@
+{
+  "file_count": 888,
+  "total_lines": 495658,
+  "largest_file": {
+    "name": "pydevd_schema.py",
+    "size": 843038
+  },
+  "top_files": [
+    {
+      "name": ".venv/lib/python3.12/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/_debug_adapter/pydevd_schema.py",
+      "size": 843038,
+      "lines": 17458
+    },
+    {
+      "name": ".venv/lib/python3.12/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/process.py",
+      "size": 179713,
+      "lines": 4885
+    },
+    {
+      "name": ".venv/lib/python3.12/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/breakpoint.py",
+      "size": 165140,
+      "lines": 4763
+    },
+    {
+      "name": ".venv/lib/python3.12/site-packages/IPython/core/interactiveshell.py",
+      "size": 161739,
+      "lines": 4156
+    },
+    {
+      "name": ".venv/lib/python3.12/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/win32/kernel32.py",
+      "size": 158759,
+      "lines": 5098
+    }
+  ]
+}
