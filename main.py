@@ -1,4 +1,5 @@
-from file_analyzer.cli import main
+from fastapi import FastAPI
+from file_analyzer.api.routes import router
 
-if __name__ == "__main__":
-    main()
+app = FastAPI()
+app.include_router(router)

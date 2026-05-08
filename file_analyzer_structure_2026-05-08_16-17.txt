@@ -1,0 +1,18 @@
+Folder map of /home/legendari/projects/python-core/file-analyzer
+==================================================
+
+__pycache__/
+.git/
+.venv/
+file_analyzer/
+file_analyzer.egg-info/
+output/
+.gitignore
+.python-version
+analyzer-v1.py
+learning-prompt.txt
+main.py
+pyproject.toml
+README.md
+report.json
+uv.lock

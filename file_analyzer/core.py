@@ -1,6 +1,7 @@
 from pathlib import Path
 
 
+
 def analyze(folder: Path, suffix: str, min_lines: None | int, top: int | None):
 
     files = []
@@ -22,7 +23,7 @@ def analyze(folder: Path, suffix: str, min_lines: None | int, top: int | None):
                     continue
                 total_lines += line_count
             except Exception as e:
-                print(e)
+                # print(e)
                 continue
             file_count += 1
             file_size = item.stat().st_size

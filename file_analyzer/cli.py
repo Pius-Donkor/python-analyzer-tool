@@ -38,7 +38,7 @@ def main():
         print(json.dumps(results, indent=2))
     else:
         print(f"Total files found: {results['file_count']}")
-        print(f"Total lines across files found: {results['file_count']}")
+        print(f"Total lines across files found: {results['total_lines']}")
         print(
             f"Largest file: {results['largest_file']['name']} "
             f"({results['largest_file']['size']} bytes)"
